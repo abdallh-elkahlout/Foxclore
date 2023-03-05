@@ -92,9 +92,6 @@ img:hover {
 
 .footer {
     background-image: url(image/background02.jpg);
-    position: relative;
-    z-index: 999;
-
 }
 
 .social {
@@ -133,19 +130,6 @@ img:hover {
 
 .line {
     border-bottom: 1px solid rgb(179, 177, 177);
-}
-
-.footer::after {
-    content: " ";
-    height: 795px;
-    width: 1355px;
-    background-color: #373837;
-    display: block;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-    left: -10px;
-    opacity: .5;
 }
 
 .up {
