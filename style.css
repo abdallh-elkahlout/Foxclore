@@ -1,0 +1,177 @@
+.aaa {
+    background-image: url(image/backgroun01.jpg);
+    height: 700px;
+}
+
+.i .bi {
+    top: -4px;
+    position: relative;
+    left: 2px;
+}
+
+.i {
+    z-index: 999;
+    position: relative;
+}
+
+.i::after {
+    content: " ";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4BB543;
+    display: block;
+    position: absolute;
+    top: -10px;
+    z-index: -1;
+    left: -10px;
+}
+
+.bbb {
+    background-color: #eff7fa;
+}
+
+img {
+    transition: .3s;
+}
+
+img:hover {
+    opacity: .7;
+}
+
+.icon-holder {
+    height: 200px;
+
+}
+
+.svg-icon {
+    margin-top: 100px;
+    scale: 5;
+    color: #4BB543;
+}
+
+.btn {
+    background-color: #4BB543;
+}
+
+.btn:hover {
+    border: 1px #4BB543 solid;
+    background-color: white;
+    color: black;
+}
+
+.svg-icon1 {
+    margin-top: 100px;
+    scale: 5;
+    color: rgb(187, 184, 184);
+}
+
+.svg-icon1:hover {
+    color: gray;
+    transition: .4s;
+}
+
+.ccc {
+    background-color: #4BB543;
+
+}
+
+.date {
+    width: 65px;
+    height: 90px;
+    background-color: #e1e4e4;
+}
+
+.btn1 {
+    background-color: white;
+    color: #4BB543;
+    border: none;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.footer {
+    background-image: url(image/background02.jpg);
+    position: relative;
+    z-index: 999;
+
+}
+
+.social {
+    scale: 1.5;
+}
+
+.bi-google:hover {
+    color: #4285F4;
+    transition: 0.3s;
+}
+
+.bi-dribbble:hover {
+    color: #ea4c89;
+    transition: 0.4s;
+}
+
+.bi-facebook:hover {
+    color: #3b5998;
+    transition: 0.4s;
+}
+
+.bi-twitter:hover {
+    color: #00acee;
+    transition: 0.4s;
+}
+
+.bi-linkedin:hover {
+    color: #0072b1;
+    transition: 0.4s;
+}
+
+.bi-yelp:hover {
+    color: #c41200;
+    transition: 0.4s;
+}
+
+.line {
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+
+.footer::after {
+    content: " ";
+    height: 795px;
+    width: 1355px;
+    background-color: #373837;
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    left: -10px;
+    opacity: .5;
+}
+
+.up {
+    scale: 2;
+    color: #4BB543;
+}
+
+@media (max-width: 992px) {
+    .footer::after {
+        height: 1250px;
+    }
+
+    @media (max-width: 992px) {
+        .aaa {
+            height: 1115px;
+        }
+
+        @media (max-width: 768px) {
+            .aaa {
+                height: 1000px;
+            }
+        }
+
+
+        @media (max-width: 490px) {
+            .aaa {
+                height: 1100px;
+            }
+        }
