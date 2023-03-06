@@ -132,30 +132,30 @@ img:hover {
     border-bottom: 1px solid rgb(179, 177, 177);
 }
 
+.aaaa {
+    width: 100%;
+}
+
 .up {
     scale: 2;
     color: #4BB543;
 }
 
 @media (max-width: 992px) {
-    .footer::after {
-        height: 1250px;
+    .aaa {
+        height: 1115px;
     }
+}
 
-    @media (max-width: 992px) {
-        .aaa {
-            height: 1115px;
-        }
-
-        @media (max-width: 768px) {
-            .aaa {
-                height: 1000px;
-            }
-        }
+@media (max-width: 768px) {
+    .aaa {
+        height: 1000px;
+    }
+}
 
 
-        @media (max-width: 490px) {
-            .aaa {
-                height: 1100px;
-            }
-        }
+@media (max-width: 490px) {
+    .aaa {
+        height: 1100px;
+    }
+}
